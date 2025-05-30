@@ -12,3 +12,7 @@ Feature of the application
 This application uses functional components, makes use of react hooks to call async functions for rendering purpose. 
 States are stored using redux toolkit. Stated are updated using extra reducers, which receive data from async thunk functions. 
 Thunk functions are making database calls. Since I did not have a working API for this app.
+
+To open this application manually, steps below 
+1) npm i(install packages)
+2) npm run dev(to start application): Open the port provided by this command
