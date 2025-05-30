@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #075E54; /* WhatsApp green */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  /* position:static; 
+  top:0px;
+  left:0px;  */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.userImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #25D366; /* lighter green accent */
+  object-fit: cover;
+}
+
+.flexContainer {
+  display: flex;
+  height: calc(100vh - 60px); /* minus navbar height */
+  overflow: hidden;
+}
